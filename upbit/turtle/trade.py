@@ -20,7 +20,7 @@ from position import save_state
 
 logger = logging.getLogger(__name__)
 
-MIN_ORDER_KRW = 5_500       # 업비트 최소 주문 금액 (5,000 KRW + 여유)
+MIN_ORDER_KRW = 5_000       # 업비트 최소 주문 금액
 SLEEP_AFTER_ORDER = 0.3     # 주문 후 대기 (API rate limit)
 
 
